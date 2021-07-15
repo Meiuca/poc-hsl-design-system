@@ -6,8 +6,12 @@ module.exports = () => {
   return {
     entry: {
       index: './src/index.js',
-      'component/button': './src/base-components/button/index.js',
-      'component/heading': './src/base-components/heading/index.js',
+      'base-component/button': './src/base-components/button/index.js',
+      'base-component/heading': './src/base-components/heading/index.js',
+      'base-component/paragraph': './src/base-components/paragraph/index.js',
+      'base-component/shape': './src/base-components/shape/index.js',
+      'base-component/subtitle': './src/base-components/subtitle/index.js',
+      'component/cardContent': './src/components/cardContent/index.js',
     },
     module: {
       rules: [

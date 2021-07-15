@@ -1,0 +1,15 @@
+@import "@meiuca/design-tokens/dist/web/globals.scss";
+@import "@meiuca/design-tokens/dist/web/hsl/default.scss";
+
+.shape {
+  border-style: solid;
+  width: 357px;
+  min-height: 427px;
+  height: auto;
+  box-sizing: border-box;
+  border-radius: $border-radius-none;
+  padding: $spacing-inset-lg;
+  border-width: $border-width-thin;
+  border-color: $color-neutral-04;
+  background-color: $color-neutral-05;
+}

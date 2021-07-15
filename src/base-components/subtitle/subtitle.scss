@@ -1,0 +1,10 @@
+@import "@meiuca/design-tokens/dist/web/globals.scss";
+@import "@meiuca/design-tokens/dist/web/hsl/default.scss";
+
+.subtitle {
+  font-size: $font-size-md;
+  line-height: $line-height-medium;
+  font-family: $font-family-highlight;
+  font-weight: $font-weight-medium;
+  color: $color-neutral-02;
+}

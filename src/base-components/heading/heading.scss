@@ -1,0 +1,11 @@
+@import "@meiuca/design-tokens/dist/web/globals.scss";
+@import "@meiuca/design-tokens/dist/web/hsl/default.scss";
+
+.heading {
+  margin: 0;
+  font-size: $font-size-lg;
+  line-height: $line-height-distant;
+  font-family: $font-family-highlight;
+  font-weight: $font-weight-bold;
+  color: $color-neutral-01;
+}

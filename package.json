@@ -6,13 +6,21 @@
   "license": "MIT",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack"
+    "build": "webpack",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
   },
   "module": "dist/main.bundle.js",
   "devDependencies": {
     "@babel/core": "^7.14.6",
     "@babel/preset-env": "^7.14.7",
     "@babel/preset-react": "^7.14.5",
+    "@storybook/addon-actions": "^6.3.4",
+    "@storybook/addon-essentials": "^6.3.4",
+    "@storybook/addon-links": "^6.3.4",
+    "@storybook/builder-webpack5": "^6.3.4",
+    "@storybook/manager-webpack5": "^6.3.4",
+    "@storybook/react": "^6.3.4",
     "babel-loader": "^8.2.2",
     "css-loader": "^6.0.0",
     "node-sass": "^6.0.1",
@@ -22,10 +30,9 @@
     "webpack-cli": "^4.7.2"
   },
   "dependencies": {
+    "@meiuca/design-tokens": "https://github.com/Meiuca/poc-hsl-design-tokens",
     "prop-types": "^15.7.2",
-    "@meiuca/design-tokens": "https://github.com/Meiuca/poc-hsl-design-tokens"
-  },
-  "peerDependencies": {
-    "react": "^17.0.2"
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
   }
 }

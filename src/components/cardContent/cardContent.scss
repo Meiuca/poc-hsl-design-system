@@ -1,0 +1,14 @@
+@import "@meiuca/design-tokens/dist/web/globals.scss";
+@import "@meiuca/design-tokens/dist/web/hsl/default.scss";
+
+.shape {
+  .heading {
+    margin-bottom: $spacing-stack-xxxs;
+  }
+  .subtitle{
+    margin-bottom: $spacing-stack-xxs;
+  }
+  .paragraph{
+    margin-bottom: $spacing-stack-sm;
+  }
+}

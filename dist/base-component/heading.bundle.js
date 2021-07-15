@@ -12,7 +12,7 @@ return /******/ (() => { // webpackBootstrap
 /******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ({
 
-/***/ 688:
+/***/ 585:
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
@@ -24,7 +24,7 @@ return /******/ (() => { // webpackBootstrap
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "button{font-size:20px;line-height:100%;border-radius:0px;padding:16px 24px;font-family:Poppins;font-weight:600;color:#fff;background-color:#F04E23}button:hover{background-color:#8F260A}\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, ".heading{margin:0;font-size:32px;line-height:150%;font-family:Poppins;font-weight:700;color:#000}\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -445,7 +445,7 @@ __webpack_require__.r(__webpack_exports__);
 
 // EXPORTS
 __webpack_require__.d(__webpack_exports__, {
-  "default": () => (/* binding */ base_components_button)
+  "default": () => (/* binding */ base_components_heading)
 });
 
 // EXTERNAL MODULE: external "react"
@@ -469,9 +469,9 @@ var insertStyleElement_default = /*#__PURE__*/__webpack_require__.n(insertStyleE
 // EXTERNAL MODULE: ./node_modules/style-loader/dist/runtime/styleTagTransform.js
 var styleTagTransform = __webpack_require__(589);
 var styleTagTransform_default = /*#__PURE__*/__webpack_require__.n(styleTagTransform);
-// EXTERNAL MODULE: ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/base-components/button/button.scss
-var button_button = __webpack_require__(688);
-;// CONCATENATED MODULE: ./src/base-components/button/button.scss
+// EXTERNAL MODULE: ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/base-components/heading/heading.scss
+var heading = __webpack_require__(585);
+;// CONCATENATED MODULE: ./src/base-components/heading/heading.scss
 
       
       
@@ -493,24 +493,26 @@ options.setAttributes = (setAttributesWithoutAttributes_default());
 options.domAPI = (styleDomAPI_default());
 options.insertStyleElement = (insertStyleElement_default());
 
-var update = injectStylesIntoStyleTag_default()(button_button/* default */.Z, options);
+var update = injectStylesIntoStyleTag_default()(heading/* default */.Z, options);
 
 
 
 
-       /* harmony default export */ const base_components_button_button = (button_button/* default */.Z && button_button/* default.locals */.Z.locals ? button_button/* default.locals */.Z.locals : undefined);
+       /* harmony default export */ const heading_heading = (heading/* default */.Z && heading/* default.locals */.Z.locals ? heading/* default.locals */.Z.locals : undefined);
 
-;// CONCATENATED MODULE: ./src/base-components/button/index.js
+;// CONCATENATED MODULE: ./src/base-components/heading/index.js
 
 
 
-function DSButton({
+function DSHeading({
   children
 }) {
-  return /*#__PURE__*/external_react_default().createElement("button", null, children);
+  return /*#__PURE__*/external_react_default().createElement("h2", {
+    className: "heading"
+  }, children);
 }
 
-/* harmony default export */ const base_components_button = (DSButton);
+/* harmony default export */ const base_components_heading = (DSHeading);
 })();
 
 /******/ 	return __webpack_exports__;

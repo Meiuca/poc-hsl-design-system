@@ -395,99 +395,6 @@ function DSSubtitle({
 
 /***/ }),
 
-/***/ 978:
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-
-// EXPORTS
-__webpack_require__.d(__webpack_exports__, {
-  "default": () => (/* binding */ components_cardContent)
-});
-
-// EXTERNAL MODULE: external "react"
-var external_react_ = __webpack_require__(297);
-var external_react_default = /*#__PURE__*/__webpack_require__.n(external_react_);
-// EXTERNAL MODULE: ./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js
-var injectStylesIntoStyleTag = __webpack_require__(379);
-var injectStylesIntoStyleTag_default = /*#__PURE__*/__webpack_require__.n(injectStylesIntoStyleTag);
-// EXTERNAL MODULE: ./node_modules/style-loader/dist/runtime/styleDomAPI.js
-var styleDomAPI = __webpack_require__(795);
-var styleDomAPI_default = /*#__PURE__*/__webpack_require__.n(styleDomAPI);
-// EXTERNAL MODULE: ./node_modules/style-loader/dist/runtime/insertBySelector.js
-var insertBySelector = __webpack_require__(569);
-var insertBySelector_default = /*#__PURE__*/__webpack_require__.n(insertBySelector);
-// EXTERNAL MODULE: ./node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js
-var setAttributesWithoutAttributes = __webpack_require__(565);
-var setAttributesWithoutAttributes_default = /*#__PURE__*/__webpack_require__.n(setAttributesWithoutAttributes);
-// EXTERNAL MODULE: ./node_modules/style-loader/dist/runtime/insertStyleElement.js
-var insertStyleElement = __webpack_require__(216);
-var insertStyleElement_default = /*#__PURE__*/__webpack_require__.n(insertStyleElement);
-// EXTERNAL MODULE: ./node_modules/style-loader/dist/runtime/styleTagTransform.js
-var styleTagTransform = __webpack_require__(589);
-var styleTagTransform_default = /*#__PURE__*/__webpack_require__.n(styleTagTransform);
-// EXTERNAL MODULE: ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/components/cardContent/cardContent.scss
-var cardContent = __webpack_require__(366);
-;// CONCATENATED MODULE: ./src/components/cardContent/cardContent.scss
-
-      
-      
-      
-      
-      
-      
-      
-      
-      
-
-var options = {};
-
-options.styleTagTransform = (styleTagTransform_default());
-options.setAttributes = (setAttributesWithoutAttributes_default());
-
-      options.insert = insertBySelector_default().bind(null, "head");
-    
-options.domAPI = (styleDomAPI_default());
-options.insertStyleElement = (insertStyleElement_default());
-
-var update = injectStylesIntoStyleTag_default()(cardContent/* default */.Z, options);
-
-
-
-
-       /* harmony default export */ const cardContent_cardContent = (cardContent/* default */.Z && cardContent/* default.locals */.Z.locals ? cardContent/* default.locals */.Z.locals : undefined);
-
-// EXTERNAL MODULE: ./src/base-components/heading/index.js + 1 modules
-var base_components_heading = __webpack_require__(757);
-// EXTERNAL MODULE: ./src/base-components/subtitle/index.js + 1 modules
-var base_components_subtitle = __webpack_require__(488);
-// EXTERNAL MODULE: ./src/base-components/paragraph/index.js + 1 modules
-var base_components_paragraph = __webpack_require__(33);
-// EXTERNAL MODULE: ./src/base-components/button/index.js + 1 modules
-var base_components_button = __webpack_require__(92);
-// EXTERNAL MODULE: ./src/base-components/shape/index.js + 1 modules
-var shape = __webpack_require__(738);
-;// CONCATENATED MODULE: ./src/components/cardContent/index.js
-
-
-
-
-
-
-
-
-function DSCardContent({
-  heading = "",
-  subtitle = "",
-  paragraph = "",
-  button = ""
-}) {
-  return /*#__PURE__*/external_react_default().createElement(shape.default, null, /*#__PURE__*/external_react_default().createElement(base_components_heading.default, null, heading), /*#__PURE__*/external_react_default().createElement(base_components_subtitle.default, null, subtitle), /*#__PURE__*/external_react_default().createElement(base_components_paragraph.default, null, paragraph), /*#__PURE__*/external_react_default().createElement(base_components_button.default, null, button));
-}
-
-/* harmony default export */ const components_cardContent = (DSCardContent);
-
-/***/ }),
-
 /***/ 688:
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
@@ -1011,27 +918,95 @@ module.exports = __WEBPACK_EXTERNAL_MODULE__297__;
 var __webpack_exports__ = {};
 // This entry need to be wrapped in an IIFE because it need to be isolated against other modules in the chunk.
 (() => {
+// ESM COMPAT FLAG
 __webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "DSButton": () => (/* reexport safe */ _base_components_button__WEBPACK_IMPORTED_MODULE_0__.default),
-/* harmony export */   "DSHeading": () => (/* reexport safe */ _base_components_heading__WEBPACK_IMPORTED_MODULE_1__.default),
-/* harmony export */   "DSParagraph": () => (/* reexport safe */ _base_components_paragraph__WEBPACK_IMPORTED_MODULE_2__.default),
-/* harmony export */   "DSShape": () => (/* reexport safe */ _base_components_shape__WEBPACK_IMPORTED_MODULE_3__.default),
-/* harmony export */   "DSSubtitle": () => (/* reexport safe */ _base_components_subtitle__WEBPACK_IMPORTED_MODULE_4__.default),
-/* harmony export */   "DSCardContent": () => (/* reexport safe */ _components_cardContent__WEBPACK_IMPORTED_MODULE_5__.default)
-/* harmony export */ });
-/* harmony import */ var _base_components_button__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(92);
-/* harmony import */ var _base_components_heading__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(757);
-/* harmony import */ var _base_components_paragraph__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(33);
-/* harmony import */ var _base_components_shape__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(738);
-/* harmony import */ var _base_components_subtitle__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(488);
-/* harmony import */ var _components_cardContent__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(978);
+
+// EXPORTS
+__webpack_require__.d(__webpack_exports__, {
+  "default": () => (/* binding */ components_cardContent)
+});
+
+// EXTERNAL MODULE: external "react"
+var external_react_ = __webpack_require__(297);
+var external_react_default = /*#__PURE__*/__webpack_require__.n(external_react_);
+// EXTERNAL MODULE: ./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js
+var injectStylesIntoStyleTag = __webpack_require__(379);
+var injectStylesIntoStyleTag_default = /*#__PURE__*/__webpack_require__.n(injectStylesIntoStyleTag);
+// EXTERNAL MODULE: ./node_modules/style-loader/dist/runtime/styleDomAPI.js
+var styleDomAPI = __webpack_require__(795);
+var styleDomAPI_default = /*#__PURE__*/__webpack_require__.n(styleDomAPI);
+// EXTERNAL MODULE: ./node_modules/style-loader/dist/runtime/insertBySelector.js
+var insertBySelector = __webpack_require__(569);
+var insertBySelector_default = /*#__PURE__*/__webpack_require__.n(insertBySelector);
+// EXTERNAL MODULE: ./node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js
+var setAttributesWithoutAttributes = __webpack_require__(565);
+var setAttributesWithoutAttributes_default = /*#__PURE__*/__webpack_require__.n(setAttributesWithoutAttributes);
+// EXTERNAL MODULE: ./node_modules/style-loader/dist/runtime/insertStyleElement.js
+var insertStyleElement = __webpack_require__(216);
+var insertStyleElement_default = /*#__PURE__*/__webpack_require__.n(insertStyleElement);
+// EXTERNAL MODULE: ./node_modules/style-loader/dist/runtime/styleTagTransform.js
+var styleTagTransform = __webpack_require__(589);
+var styleTagTransform_default = /*#__PURE__*/__webpack_require__.n(styleTagTransform);
+// EXTERNAL MODULE: ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/components/cardContent/cardContent.scss
+var cardContent = __webpack_require__(366);
+;// CONCATENATED MODULE: ./src/components/cardContent/cardContent.scss
+
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+var options = {};
+
+options.styleTagTransform = (styleTagTransform_default());
+options.setAttributes = (setAttributesWithoutAttributes_default());
+
+      options.insert = insertBySelector_default().bind(null, "head");
+    
+options.domAPI = (styleDomAPI_default());
+options.insertStyleElement = (insertStyleElement_default());
+
+var update = injectStylesIntoStyleTag_default()(cardContent/* default */.Z, options);
+
+
+
+
+       /* harmony default export */ const cardContent_cardContent = (cardContent/* default */.Z && cardContent/* default.locals */.Z.locals ? cardContent/* default.locals */.Z.locals : undefined);
+
+// EXTERNAL MODULE: ./src/base-components/heading/index.js + 1 modules
+var base_components_heading = __webpack_require__(757);
+// EXTERNAL MODULE: ./src/base-components/subtitle/index.js + 1 modules
+var base_components_subtitle = __webpack_require__(488);
+// EXTERNAL MODULE: ./src/base-components/paragraph/index.js + 1 modules
+var base_components_paragraph = __webpack_require__(33);
+// EXTERNAL MODULE: ./src/base-components/button/index.js + 1 modules
+var base_components_button = __webpack_require__(92);
+// EXTERNAL MODULE: ./src/base-components/shape/index.js + 1 modules
+var shape = __webpack_require__(738);
+;// CONCATENATED MODULE: ./src/components/cardContent/index.js
 
 
 
 
 
 
+
+
+function DSCardContent({
+  heading = "",
+  subtitle = "",
+  paragraph = "",
+  button = ""
+}) {
+  return /*#__PURE__*/external_react_default().createElement(shape.default, null, /*#__PURE__*/external_react_default().createElement(base_components_heading.default, null, heading), /*#__PURE__*/external_react_default().createElement(base_components_subtitle.default, null, subtitle), /*#__PURE__*/external_react_default().createElement(base_components_paragraph.default, null, paragraph), /*#__PURE__*/external_react_default().createElement(base_components_button.default, null, button));
+}
+
+/* harmony default export */ const components_cardContent = (DSCardContent);
 })();
 
 /******/ 	return __webpack_exports__;

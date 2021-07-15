@@ -1,8 +1,9 @@
 import React from 'react';
+import "./heading.scss";
 
-function DSHeading() {
+function DSHeading({ children }) {
   return (
-    <h1>my heading</h1>
+    <h2 className="heading">{ children }</h2>
   )
 }
 
